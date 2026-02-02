@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FreshCool AC Jakarta</title>
+
+<!-- SEO -->
+<meta name="description" content="Jasa cuci AC, service AC, isi freon & pasang AC Jakarta. Teknisi profesional, harga jujur, respon cepat.">
+<meta name="keywords" content="cuci ac jakarta, service ac jakarta, freon ac, pasang ac">
+<meta name="author" content="FreshCool AC Jakarta">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2563eb">
+
+<!-- GOOGLE ANALYTICS -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4RHRJ51668"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-4RHRJ51668');
+</script>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body { font-family:'Poppins',sans-serif; }
+.hero-bg{
+ background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+ url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab');
+ background-size:cover;background-position:center;
+}
+.fade{animation:fade .3s ease}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.bounce{animation:bounce 1.5s infinite}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+</style>
+</head>
+
+<body class="max-w-md mx-auto bg-white shadow-xl min-h-screen relative pb-32">
+
+<!-- PROMO COUNTDOWN -->
+<div class="bg-red-600 text-white text-center py-2 text-sm font-bold">
+🔥 Promo hari ini berakhir dalam <span id="timer">15:00</span>
+</div>
+
+<div id="home" class="fade">
+
+<!-- HERO -->
+<div class="hero-bg h-80 flex flex-col items-center justify-center text-white text-center p-4">
+  <div class="w-36 h-36 bg-white rounded-full overflow-hidden flex items-center justify-center border-4 shadow-xl mb-3">
+    <img src="images/freshcool-new.png" class="w-full h-full object-contain">
+  </div>
+  <h1 class="text-2xl font-bold">FreshCool AC Jakarta</h1>
+  <p class="text-sm opacity-90 mb-2">AC Bersih • Dingin • Hemat Listrik</p>
+  <span class="bg-green-500 px-4 py-1 rounded-full text-xs font-bold bounce">
+    ⚡ Respon Cepat • Bisa Hari Ini
+  </span>
+</div>
+
+<div class="bg-green-600 text-white text-center py-2 text-sm font-bold">
+🚀 Banyak dicari hari ini • Booking sebelum penuh
+</div>
+
+<div class="bg-yellow-100 text-center text-sm p-3 font-semibold">
+⏰ Slot hari ini terbatas • Cepat penuh
+</div>
+
+<!-- LAYANAN -->
+<div class="p-6">
+<h2 class="text-center text-xl font-bold mb-6">Layanan Kami</h2>
+<div class="grid grid-cols-2 gap-4">
+<button class="bg-blue-600 text-white py-4 rounded-xl font-bold">Cuci AC 🔥</button>
+<button class="bg-blue-600 text-white py-4 rounded-xl font-bold">Service</button>
+<button class="bg-blue-600 text-white py-4 rounded-xl font-bold">Freon</button>
+<button class="bg-blue-600 text-white py-4 rounded-xl font-bold">Pasang</button>
+</div>
+</div>
+
+<!-- CALL CENTER -->
+<div class="p-6 bg-gray-50">
+<h3 class="font-bold mb-3">Call Center</h3>
+<a href="https://wa.me/6283892088160" class="flex items-center gap-3">
+<i class="fab fa-whatsapp text-green-500 text-2xl"></i>
+<span class="font-semibold">+62 8389 2088 160</span>
+</a>
+</div>
+
+<!-- MAP -->
+<div class="p-6">
+<h3 class="font-bold mb-3">Lokasi Layanan</h3>
+<iframe src="https://www.google.com/maps?q=Jakarta&output=embed"
+class="w-full h-48 rounded-xl border" loading="lazy"></iframe>
+</div>
+
+<!-- TESTIMONI -->
+<div class="p-6 bg-gray-50">
+<h3 class="text-center font-bold text-lg mb-4">Testimoni Pelanggan</h3>
+<div class="space-y-4 text-sm">
+<div class="bg-white p-4 rounded-xl shadow">⭐⭐⭐⭐⭐
+<p>“AC langsung dingin, kerja cepat & rapi.”</p>
+<span class="text-xs text-gray-500">— Andi</span></div>
+<div class="bg-white p-4 rounded-xl shadow">⭐⭐⭐⭐⭐
+<p>“Teknisi jujur, harga sesuai.”</p>
+<span class="text-xs text-gray-500">— Siti</span></div>
+</div>
+</div>
+
+<!-- FAQ -->
+<div class="p-6">
+<h3 class="font-bold text-lg mb-4 text-center">Pertanyaan Umum</h3>
+<details class="bg-gray-50 p-4 rounded-xl mb-3">
+<summary class="font-semibold">Berapa lama pengerjaan?</summary>
+<p class="mt-2 text-gray-600">±30–60 menit per unit</p>
+</details>
+<details class="bg-gray-50 p-4 rounded-xl">
+<summary class="font-semibold">Bisa hari ini?</summary>
+<p class="mt-2 text-gray-600">Bisa tergantung slot</p>
+</details>
+</div>
+
+<!-- BOOKING -->
+<div class="p-6 bg-blue-50 rounded-xl mx-4 mt-6">
+<h3 class="font-bold text-lg mb-4 text-center">📅 Booking Jadwal</h3>
+<input id="tgl" type="date" class="w-full border rounded-lg p-3 mb-3">
+<select id="jam" class="w-full border rounded-lg p-3 mb-3">
+<option value="">Pilih Jam</option>
+<option>09.00 – 11.00</option>
+<option>11.00 – 13.00</option>
+<option>13.00 – 15.00</option>
+<option>15.00 – 17.00</option>
+</select>
+<button onclick="bookingWA()" class="w-full bg-green-600 text-white py-3 rounded-xl font-bold">
+📩 Booking via WhatsApp
+</button>
+</div>
+
+<!-- ESTIMASI -->
+<div class="p-6 bg-gray-50 rounded-xl mx-4 mt-6">
+<h3 class="font-bold text-lg mb-4 text-center">💰 Estimasi Harga</h3>
+<select id="jenis" class="w-full border rounded-lg p-3 mb-3">
+<option value="">Pilih Layanan</option>
+<option value="65000">Cuci AC</option>
+<option value="150000">Service AC</option>
+<option value="150000">Tambah Freon</option>
+<option value="250000">Pasang AC</option>
+</select>
+<input id="unit" type="number" min="1" placeholder="Jumlah Unit"
+class="w-full border rounded-lg p-3 mb-3">
+<div class="text-center font-bold text-lg">
+Total: <span id="total">Rp 0</span>
+</div>
+</div>
+
+</div>
+
+<!-- STICKY CTA -->
+<div class="fixed bottom-0 left-0 right-0 max-w-md mx-auto bg-white border-t p-3 z-40">
+<a href="https://wa.me/6283892088160"
+class="block bg-green-600 text-white text-center py-3 rounded-xl font-bold">
+💬 Pesan via WhatsApp Sekarang
+</a>
+</div>
+
+<!-- FLOAT WA -->
+<a href="https://wa.me/6283892088160"
+class="fixed bottom-24 right-5 bg-green-500 w-14 h-14 rounded-full flex items-center justify-center text-white text-2xl shadow-lg bounce z-50">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<script>
+// countdown
+let time=900;
+setInterval(()=>{
+ if(time<=0)return;
+ time--;
+ timer.innerText=
+ `${String(Math.floor(time/60)).padStart(2,'0')}:${String(time%60).padStart(2,'0')}`;
+},1000);
+
+// booking
+function bookingWA(){
+ const t=tgl.value,j=jam.value;
+ if(!t||!j){alert("Pilih tanggal & jam");return;}
+ window.open(`https://wa.me/6283892088160?text=Booking%20${t}%20jam%20${j}`);
+}
+
+// estimasi
+function hitung(){
+ const h=jenis.value,u=unit.value;
+ total.innerText="Rp "+(h*u||0).toLocaleString("id-ID");
+}
+jenis.onchange=hitung; unit.oninput=hitung;
+
+// service worker
+if("serviceWorker"in navigator){
+ navigator.serviceWorker.register("service-worker.js");
+}
+</script>
+
+<!-- SCHEMA -->
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"LocalBusiness",
+"name":"FreshCool AC Jakarta",
+"telephone":"+6283892088160",
+"areaServed":"Jakarta",
+"priceRange":"Rp50.000 - Rp400.000"
+}
+</script>
+
+</body>
+</html>
